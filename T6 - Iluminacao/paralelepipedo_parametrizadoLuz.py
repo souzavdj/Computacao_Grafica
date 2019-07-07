@@ -61,9 +61,9 @@ for i in range (1, qtdlados):
 faces += ((0,qtdlados, 1),)
 
 for i in range (1, qtdlados):
-    faces += ((i,i+1,i+qtdlados),)
+    faces += ((i+1,i,i+qtdlados),)
     faces += ((i+1,i+qtdlados,i+qtdlados+1),)
-faces += ((qtdlados,1,2*qtdlados),)
+faces += ((1, qtdlados,2*qtdlados),)
 faces += ((1,2*qtdlados,qtdlados+1),)
 
 for i in range (1, qtdlados):
